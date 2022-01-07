@@ -1,0 +1,22 @@
+.first{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(102,0,133);
+    background: linear-gradient(90deg, rgba(102,0,133,1) 0%, rgba(205,0,132,1) 50%, rgba(230,0,124,1) 100%);
+    border-radius: 5%;
+}
+.text{
+    color: whitesmoke;
+}
+.icon{
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-icon{
+    cursor: pointer;
+}
+.Edit-icon{
+    cursor: pointer;
+}
