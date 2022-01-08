@@ -1,12 +1,12 @@
 import React from 'react';
-import Todo from './Components/Component-pages/To-do-App';
 import './App.css';
+import Calculator from './Components/Component-pages/Calculator';
 
 function App() {
   
   return (
     <div className="App">
-      <Todo />
+      <Calculator />
     </div>
   );
 }

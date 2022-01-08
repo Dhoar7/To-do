@@ -1,0 +1,16 @@
+.background-App{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: tan;
+    height: 10000px;
+}
+
+.background{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 1000px;
+    width: 50%;
+    background: linear-gradient(90deg, rgb(112, 90, 0) 0%, rgba(189,152,0,1) 50%, rgb(153, 123, 1) 100%);
+}

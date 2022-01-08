@@ -1,0 +1,68 @@
+.calApp{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(235,251,255);
+    background: linear-gradient(138deg, rgba(235,251,255,1) 0%, rgba(148,233,233,1) 100%);
+}
+
+.calculator{
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.display{
+    padding: 25px;
+    text-align: right;
+    color: whitesmoke;
+    background-color: rgb(34, 33, 33);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+button{
+    appearance: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+button :hover{
+    opacity: 0.9;
+}
+
+.operator {
+    display: flex;
+}
+
+.operator button{
+    flex: 1 1 0%;
+    background-color: rgb(228, 130, 11);
+}
+
+.number{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number button{
+    flex: 1 1 33.333%;
+    background-color: rgb(157, 165, 133);
+}
+
+.result{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result button{
+    flex: 1 1 33.333%;
+    background-color: rgb(228, 130, 11);
+}

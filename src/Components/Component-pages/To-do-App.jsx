@@ -27,9 +27,13 @@ function Todo(){
     }
 
     return(
-        <div className="background">
-            <TodoForm  onSubmit = {addTodos}/>
-            <Todos todos = {todos1} removeTodo = {removeTodo} updateTodo={updateTodo} />
+        <div className="background-App">
+            <div className="background">
+                <div>
+                    <TodoForm  onSubmit = {addTodos}/>
+                    <Todos todos = {todos1} removeTodo = {removeTodo} updateTodo={updateTodo} />
+                </div>
+            </div>
         </div>
     )
 }
