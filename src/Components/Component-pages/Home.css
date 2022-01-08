@@ -3,6 +3,7 @@
     height: auto;
     cursor: pointer;
     margin-top: 20px;
+    background-color: blueviolet;
 }
 
 .cal{
@@ -10,4 +11,5 @@
     height: auto;
     cursor: pointer;
     margin-top: 20px;
+    background-color: cadetblue;
 }
